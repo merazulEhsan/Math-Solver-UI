@@ -18,6 +18,17 @@
       src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"
       defer
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .font-inter {
+        font-family: "Inter", sans-serif;
+      }
+    </style>
   </head>
 
   <body class="bg-[#f5f8ff]">
@@ -77,11 +88,13 @@
           </button>
 
           <!-- Large Ui Menu -->
-          <div class="hidden lg:flex lg:items-center lg:ml-auto lg:space-x-10">
+          <div
+            class="hidden lg:flex lg:items-center lg:ml-auto lg:space-x-10 font-inter"
+          >
             <a
               href="#"
               title=""
-              class="text-base font-medium text-black transition-all ease-in-out duration-200 hover:text-blue-600 focus:text-blue-600"
+              class="text-sm font-semibold text-black hover:text-blue-500 focus:text-blue-600 relative after:transition-all after:ease-linear after:duration-500 after:bg-[#ff2773] after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-0.5 after:rounded-full after:absolute after:left-0 after:-bottom-1"
             >
               Home
             </a>
@@ -89,7 +102,7 @@
             <a
               href="/index.html"
               title=""
-              class="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+              class="text-sm font-semibold text-black hover:text-blue-500 focus:text-blue-600 relative after:transition-all after:ease-linear after:duration-500 after:bg-[#ff2773] after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-0.5 after:rounded-full after:absolute after:left-0 after:-bottom-1"
             >
               Algorithms
             </a>
@@ -97,7 +110,7 @@
             <a
               href="#"
               title=""
-              class="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+              class="text-sm font-semibold text-black hover:text-blue-500 focus:text-blue-600 relative after:transition-all after:ease-linear after:duration-500 after:bg-[#ff2773] after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-0.5 after:rounded-full after:absolute after:left-0 after:-bottom-1"
             >
               Contact
             </a>
@@ -105,7 +118,7 @@
             <a
               href="#"
               title=""
-              class="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+              class="text-sm font-semibold text-black hover:text-blue-500 focus:text-blue-600 relative after:transition-all after:ease-linear after:duration-500 after:bg-[#ff2773] after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-0.5 after:rounded-full after:absolute after:left-0 after:-bottom-1"
             >
               About
             </a>
@@ -127,12 +140,12 @@
       <!-- Child Nav -->
       <div class="bg-gradient-to-r from-sky-600 to-cyan-400">
         <div
-          class="max-w-7xl flex items-center m-auto space-x-6 px-8 uppercase text-sm"
+          class="max-w-7xl flex items-center m-auto space-x-6 px-8 uppercase font-inter text-sm"
         >
           <a
             href="#"
             title=""
-            class="font-medium text-black transition-all duration-200 text-white focus:bg-gradient-to-r from-sky-600 to-cyan-400 hover:bg-sky-700 p-2 rounded-md"
+            class="font-semibold text-black transition-all duration-200 text-white focus:bg-gradient-to-r from-sky-600 to-cyan-400 hover:bg-sky-700 p-2 rounded-md"
           >
             numerical
           </a>
@@ -140,7 +153,7 @@
           <a
             href="#"
             title=""
-            class="text-white font-medium text-black transition-all duration-200 focus:bg-gradient-to-r from-sky-600 to-cyan-400 hover:bg-sky-700 p-2 rounded-md"
+            class="text-white font-semibold text-black transition-all duration-200 focus:bg-gradient-to-r from-sky-600 to-cyan-400 hover:bg-sky-700 p-2 rounded-md"
           >
             Forum
           </a>
@@ -149,14 +162,14 @@
 
       <nav
         id="header"
-        class="pt-4 pb-6 bg-white border border-gray-200 rounded-md shadow-md lg:hidden"
+        class="pt-4 pb-6 px-6 bg-white border border-gray-200 rounded-md shadow-md lg:hidden font-inter"
       >
         <div class="flow-root">
           <div class="flex flex-col lg:px-4 px-4 -my-2 space-y-1">
             <a
               href="#"
               title=""
-              class="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+              class="inline-flex py-2 text-base font-semibold text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
             >
               Home
             </a>
@@ -164,7 +177,7 @@
             <a
               href="/index.html"
               title=""
-              class="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+              class="inline-flex py-2 text-base font-semibold text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
             >
               Algoritms
             </a>
@@ -172,7 +185,7 @@
             <a
               href="#"
               title=""
-              class="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+              class="inline-flex py-2 text-base font-semibold text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
             >
               Contact
             </a>
@@ -180,7 +193,7 @@
             <a
               href="#"
               title=""
-              class="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+              class="inline-flex py-2 text-base font-semibold text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
             >
               About
             </a>
@@ -202,7 +215,7 @@
 
     <!-- Breadcrumb -->
     <nav
-      class="max-w-7xl m-auto flex bg-gray-50 text-gray-700 border border-gray-200 py-3 px-5 h-24 justify-center mt-5"
+      class="max-w-7xl m-auto flex bg-gray-50 text-gray-700 border border-gray-200 py-3 px-5 h-24 justify-center mt-5 font-inter"
       aria-label="Breadcrumb"
     >
       <ol class="inline-flex items-center space-x-1 md:space-x-3">
@@ -267,11 +280,11 @@
       </ol>
     </nav>
 
-    <div class="min-h-screen flex flex-col max-w-7xl m-auto mt-5">
+    <div class="min-h-screen flex flex-col max-w-7xl m-auto mt-5 font-inter">
       <div class="flex flex-1 flex-col lg:flex-row gap-1 md:px-10 lg:px-0">
         <!-- left content -->
         <nav class="order-first lg:w-56 mb-4">
-          <div class="lg:flex lg:flex-row lg:min-h-screen">
+          <div class="lg:flex lg:flex-row lg:min-h-screen font-inter">
             <div
               class="flex flex-col w-full lg:w-56 pb-4 text-gray-700 bg-white rounded-lg shadow-md"
             >
@@ -308,7 +321,7 @@
               </div>
               <nav
                 id="list"
-                class="flex-grow lg:block px-4 md:px-8 lg:px-4 pb-4 md:pb-0 md:overflow-y-auto text-black"
+                class="flex-grow lg:block px-4 md:px-8 lg:px-3 pb-4 md:pb-0 md:overflow-y-auto text-black"
               >
                 <a
                   class="block px-4 py-2 mt-2 text-sm font-semibold bg-gray-100 rounded-lg transaction-all focus:text-white hover:bg-gray-200 focus:bg-gradient-to-tl from-blue-400 to-blue-600 focus:outline-none focus:shadow-lg"
@@ -361,7 +374,7 @@
               <h1 class="text-lg font-bold">
                 Root of an equation using Bisection Method
               </h1>
-              <form action="">
+              <form action="" class="text-sm">
                 <div class="flex items-center font-semibold">
                   <label for="small-input">&fnof;(x)=</label>
                   <input
@@ -387,7 +400,7 @@
                     </div>
                   </div>
                   <div class="flex items-center mt-4">
-                    <label for="small" class="block mb-2 text-base text-black"
+                    <label for="small" class="block mb-2 text-sm text-black"
                       >Choose a Digit=</label
                     >
                     <select
@@ -406,7 +419,7 @@
                 </div>
                 <button
                   type="button"
-                  class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-2 focus:outline-none focus:ring-cyan-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-2 mb-2 my-4"
+                  class="text-white text-sm bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-2 focus:outline-none focus:ring-cyan-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-2 mb-2 my-4"
                 >
                   Solution
                 </button>
@@ -426,7 +439,7 @@
                       <!-- tabs -->
                       <div class="w-full h-auto">
                         <header
-                          class="grid grid-flow-col text-gray-500 bg-gray-100 rounded-full p-1 font-bold text-xs lg:text-sm md:max-w-[380px] md:min-w-[380px]"
+                          class="grid grid-flow-col text-gray-500 bg-gray-100 rounded-full p-1 font-bold text-xs lg:text-sm font-inter md:max-w-[380px] md:min-w-[380px]"
                         >
                           <button
                             class="flex justify-center py-1 focus:outline-none hover:bg-gray-200 hover:rounded-full"
@@ -470,20 +483,22 @@
                                 2x<sup>3</sup>-2x-5 using Bisection Method
                               </h1>
                               <h1
-                                class="font-bold text-blue-500 text-md mb-2 underline"
+                                class="font-bold text-sm text-blue-500 text-md mb-2 underline"
                               >
                                 Solution:
                               </h1>
 
-                              <p>Here 2x<sup>3</sup>-2x-5=0</p>
-                              <p>Let, &fnof;(x) = 2x<sup>3</sup>-2x-5</p>
+                              <p class="text-sm">Here 2x<sup>3</sup>-2x-5=0</p>
+                              <p class="text-sm">
+                                Let, &fnof;(x) = 2x<sup>3</sup>-2x-5
+                              </p>
 
                               <div class="space-y-3">
                                 <p class="text-md font-bold mt-2">
                                   Iteration 1
                                 </p>
 
-                                <div>
+                                <div class="text-sm">
                                   <p class="font-bold text-sm">Step 01:</p>
                                   <div class="ml-10">
                                     <span class="font-semibold"
@@ -507,8 +522,8 @@
                                     <span class="pl-20">= -4.250</span>
                                   </div>
                                 </div>
-                                <div class="">
-                                  <p class="font-bold text-sm">Step 02:</p>
+                                <div class="text-sm">
+                                  <p class="font-bold">Step 02:</p>
                                   <div class="ml-10">
                                     <span class="font-semibold"
                                       >x<sub>r</sub> =
@@ -551,7 +566,7 @@
                                     <span class="pl-4">= -1.500</span>
                                   </div>
                                 </div>
-                                <div>
+                                <div class="text-sm">
                                   <p class="font-bold text-sm mt-2">Error:</p>
                                   <div class="ml-10">
                                     <span class="font-semibold">e = </span>
@@ -597,7 +612,7 @@
                                   </div>
                                 </div>
 
-                                <div>
+                                <div class="text-sm">
                                   <p class="font-bold text-sm">Step 03:</p>
                                   <div class="ml-10">
                                     <span class="font-semibold"
@@ -781,7 +796,7 @@
                             <!-- Bisection End -->
 
                             <!-- False Position Start -->
-                            <div>
+                            <div class="text-sm">
                               <h1 class="text-lg font-bold my-2">
                                 Find a root of an equation &fnof;(x) =
                                 2x<sup>3</sup>-2x-5 using False Position Method
@@ -792,15 +807,17 @@
                                 Solution:
                               </h1>
 
-                              <p>Here 2x<sup>3</sup>-2x-5=0</p>
-                              <p>Let, &fnof;(x) = 2x<sup>3</sup>-2x-5</p>
+                              <p class="text-sm">Here 2x<sup>3</sup>-2x-5=0</p>
+                              <p class="text-sm">
+                                Let, &fnof;(x) = 2x<sup>3</sup>-2x-5
+                              </p>
 
-                              <div class="space-y-3">
+                              <div class="space-y-3 text-sm">
                                 <p class="text-md font-bold mt-2">
                                   Iteration 1
                                 </p>
 
-                                <div>
+                                <div class="text-sm">
                                   <p class="font-bold text-sm">Step 01:</p>
                                   <div class="ml-10">
                                     <span class="font-semibold"
@@ -824,7 +841,7 @@
                                     <span class="pl-20">= -4.250</span>
                                   </div>
                                 </div>
-                                <div>
+                                <div class="text-sm">
                                   <p class="font-bold text-sm">Step 02:</p>
                                   <div class="ml-10">
                                     <span class="font-semibold"
@@ -885,7 +902,7 @@
                                     <span class="pl-4">= 3.655</span>
                                   </div>
                                 </div>
-                                <div>
+                                <div class="text-sm">
                                   <p class="font-bold text-sm mt-2">Error:</p>
                                   <div class="ml-10">
                                     <span class="font-semibold">e = </span>
@@ -1115,7 +1132,7 @@
                             <!-- False Position End -->
 
                             <!-- Newton Rapson Start -->
-                            <div>
+                            <div class="text-sm">
                               <h1 class="text-lg font-bold my-2">
                                 Find a root of an equation &fnof;(x) =
                                 2x<sup>3</sup>-2x-5 using Newton Rapson Method
@@ -1388,6 +1405,425 @@
                               </div>
                             </div>
                             <!-- Newton Rapson End -->
+
+                            <!-- Secant Method Start -->
+                            <div class="text-sm">
+                              <h1 class="text-lg font-bold my-2">
+                                Find a root of an equation &fnof;(x) =
+                                2x<sup>3</sup>-2x-5 using Secant Method
+                              </h1>
+                              <h1
+                                class="font-bold text-blue-500 text-md mb-2 underline"
+                              >
+                                Solution:
+                              </h1>
+
+                              <p>Here 2x<sup>3</sup>-2x-5=0</p>
+                              <p>Let, &fnof;(x) = 2x<sup>3</sup>-2x-5</p>
+
+                              <div class="space-y-3">
+                                <p class="text-md font-bold mt-2">
+                                  Iteration 1
+                                </p>
+
+                                <div>
+                                  <p class="font-bold text-sm">Step 01:</p>
+                                  <div class="ml-10">
+                                    <span class="font-semibold"
+                                      >x<sub>1</sub> =
+                                    </span>
+                                    <math class="text-xl my-3">
+                                      <mfrac>
+                                        <mrow>
+                                          <mn
+                                            ><span
+                                              >&fnof;(x<sub>0</sub>)
+                                              &times;</span
+                                            >
+                                          </mn>
+                                          <msub>
+                                            <mn>(x</mn>
+                                            <mn>0</mn>
+                                          </msub>
+                                          <mn> - </mn>
+                                          <msub>
+                                            <mn>x</mn>
+                                            <mn>1</mn>
+                                          </msub>
+                                          <mn>)</mn>
+                                        </mrow>
+                                        <mrow>
+                                          <mn
+                                            ><span>&fnof;(x<sub>0</sub>) </span>
+                                          </mn>
+                                          <mn>-</mn>
+                                          <mn>
+                                            <span>&fnof;(x<sub>1</sub>) </span>
+                                          </mn>
+                                        </mrow>
+                                      </mfrac>
+                                    </math>
+
+                                    <br />
+                                    <span class="pl-4"
+                                      >=
+
+                                      <math class="text-xl my-3">
+                                        <mfrac>
+                                          <mrow>
+                                            <mn>4.213</mn>
+                                            <mn>&times;</mn>
+                                            <mn>(-9 - 4.479)</mn>
+                                          </mrow>
+                                          <mrow>
+                                            <mn>(-64.700 -4.213)</mn>
+                                          </mrow>
+                                        </mfrac>
+                                      </math>
+                                    </span>
+                                    <br />
+                                    <span class="pl-4">= 3.655</span>
+                                  </div>
+                                </div>
+                                <div>
+                                  <p class="font-bold text-sm mt-2">
+                                    Step 02: Error
+                                  </p>
+                                  <div class="ml-10">
+                                    <span class="font-semibold">e = </span>
+                                    <span>|</span>
+                                    <math class="text-xl py-3">
+                                      <mfrac>
+                                        <mrow>
+                                          <msub>
+                                            <mn>x</mn>
+                                            <mn>1</mn>
+                                          </msub>
+                                          <mn> - </mn>
+                                          <msub>
+                                            <mn>x</mn>
+                                            <mn>0</mn>
+                                          </msub>
+                                        </mrow>
+                                        <mrow>
+                                          <msub>
+                                            <mn>x</mn>
+                                            <mn>1</mn>
+                                          </msub>
+                                        </mrow>
+                                      </mfrac>
+                                    </math>
+                                    <span>| &times; 100%</span> <br />
+                                    <span class="px-3">
+                                      = |
+                                      <math class="text-xl py-3">
+                                        <mfrac>
+                                          <mrow>
+                                            <!-- numerator content grouped in one mrow -->
+                                            <mn>-1 - (-1.5)</mn>
+                                          </mrow>
+                                          <mrow>
+                                            <!-- denominator content grouped in one mrow -->
+                                            <mn>-1.5</mn>
+                                          </mrow>
+                                        </mfrac>
+                                      </math>
+                                    </span>
+                                    <span>|&times; 100% = 14.29%</span>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <!-- iteration Table -->
+                              <div
+                                class="relative overflow-x-auto shadow-md sm:rounded-lg my-8"
+                              >
+                                <table
+                                  class="w-full text-sm text-left text-black table-auto"
+                                >
+                                  <caption
+                                    class="p-4 text-lg font-semibold text-left text-gray-900 bg-white"
+                                  >
+                                    Iteration Table
+                                  </caption>
+                                  <thead
+                                    class="text-xs text-gray-700 bg-gray-50"
+                                  >
+                                    <tr>
+                                      <th scope="col" class="lg:px-4 px-2 py-3">
+                                        Itn No
+                                      </th>
+                                      <th scope="col" class="lg:px-4 px-2 py-3">
+                                        x<sub>i</sub> - 1
+                                      </th>
+                                      <th scope="col" class="lg:px-4 px-2 py-3">
+                                        x<sub>i</sub>
+                                      </th>
+                                      <th scope="col" class="lg:px-4 px-2 py-3">
+                                        x<sub>i</sub> + 1
+                                      </th>
+                                      <th scope="col" class="lg:px-4 px-2 py-3">
+                                        Error
+                                      </th>
+                                    </tr>
+                                  </thead>
+                                  <tbody class="text-xs">
+                                    <tr class="bg-white">
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        1
+                                      </td>
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        1.87
+                                      </td>
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        1.763
+                                      </td>
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        1.93e9
+                                      </td>
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        1.903
+                                      </td>
+                                    </tr>
+                                    <tr class="bg-gray-50">
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        2
+                                      </td>
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        1.87
+                                      </td>
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        1.763
+                                      </td>
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        1.93e9
+                                      </td>
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        1.903
+                                      </td>
+                                    </tr>
+                                    <tr class="bg-white">
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        3
+                                      </td>
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        1.87
+                                      </td>
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        1.763
+                                      </td>
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        1.93e9
+                                      </td>
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        1.903
+                                      </td>
+                                    </tr>
+                                    <tr class="bg-gray-50">
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        4
+                                      </td>
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        1.87
+                                      </td>
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        1.763
+                                      </td>
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        1.93e9
+                                      </td>
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        1.903
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+                            <!-- Secant Method End -->
+
+                            <!-- Fixed Point Method -->
+                            <div class="text-sm">
+                              <h1 class="text-lg font-bold my-2">
+                                Find a root of an equation &fnof;(x) =
+                                2x<sup>3</sup>-2x-5 using Fixed Point Method
+                              </h1>
+                              <h1
+                                class="font-bold text-blue-500 text-md mb-2 underline"
+                              >
+                                Solution:
+                              </h1>
+
+                              <p>Here 2x<sup>3</sup>-2x-5=0</p>
+                              <p>Let, &fnof;(x) = 2x<sup>3</sup>-2x-5</p>
+
+                              <div class="space-y-3">
+                                <p class="text-md font-bold mt-2">
+                                  Iteration 1
+                                </p>
+
+                                <div>
+                                  <p class="font-bold text-sm">Step 01:</p>
+                                  <div class="ml-10">
+                                    <span class="font-semibold"
+                                      >x<sub>1</sub> =
+                                    </span>
+                                    <span>g(x<sub>0</sub>)</span>
+
+                                    <br />
+                                    <span class="pl-4"
+                                      >= (4+10)<sup>1/4</sup>
+                                    </span>
+                                    <br />
+                                    <span class="pl-4">= 3.655</span>
+                                  </div>
+                                </div>
+                                <div>
+                                  <p class="font-bold text-sm mt-2">
+                                    Step 02: Error
+                                  </p>
+                                  <div class="ml-10">
+                                    <span class="font-semibold">e = </span>
+                                    <span>|</span>
+                                    <math class="text-xl py-3">
+                                      <mfrac>
+                                        <mrow>
+                                          <msub>
+                                            <mn>x</mn>
+                                            <mn>1</mn>
+                                          </msub>
+                                          <mn> - </mn>
+                                          <msub>
+                                            <mn>x</mn>
+                                            <mn>0</mn>
+                                          </msub>
+                                        </mrow>
+                                        <mrow>
+                                          <msub>
+                                            <mn>x</mn>
+                                            <mn>1</mn>
+                                          </msub>
+                                        </mrow>
+                                      </mfrac>
+                                    </math>
+                                    <span>| &times; 100%</span> <br />
+                                    <span class="px-3">
+                                      = |
+                                      <math class="text-xl py-3">
+                                        <mfrac>
+                                          <mrow>
+                                            <!-- numerator content grouped in one mrow -->
+                                            <mn>-1 - (-1.5)</mn>
+                                          </mrow>
+                                          <mrow>
+                                            <!-- denominator content grouped in one mrow -->
+                                            <mn>-1.5</mn>
+                                          </mrow>
+                                        </mfrac>
+                                      </math>
+                                    </span>
+                                    <span>|&times; 100% = 14.29%</span>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <!-- iteration Table -->
+                              <div
+                                class="relative overflow-x-auto shadow-md sm:rounded-lg my-8"
+                              >
+                                <table
+                                  class="w-full text-sm text-left text-black table-auto"
+                                >
+                                  <caption
+                                    class="p-4 text-lg font-semibold text-left text-gray-900 bg-white"
+                                  >
+                                    Iteration Table
+                                  </caption>
+                                  <thead
+                                    class="text-xs text-gray-700 bg-gray-50"
+                                  >
+                                    <tr>
+                                      <th scope="col" class="lg:px-4 px-2 py-3">
+                                        Itn No
+                                      </th>
+                                      <th scope="col" class="lg:px-4 px-2 py-3">
+                                        x<sub>i</sub>
+                                      </th>
+
+                                      <th scope="col" class="lg:px-4 px-2 py-3">
+                                        x<sub>i</sub> + 1
+                                      </th>
+                                      <th scope="col" class="lg:px-4 px-2 py-3">
+                                        Error
+                                      </th>
+                                    </tr>
+                                  </thead>
+                                  <tbody class="text-xs">
+                                    <tr class="bg-white">
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        1
+                                      </td>
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        1.87
+                                      </td>
+
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        1.93e9
+                                      </td>
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        1.903
+                                      </td>
+                                    </tr>
+                                    <tr class="bg-gray-50">
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        2
+                                      </td>
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        1.87
+                                      </td>
+
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        1.93e9
+                                      </td>
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        1.903
+                                      </td>
+                                    </tr>
+                                    <tr class="bg-white">
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        3
+                                      </td>
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        1.87
+                                      </td>
+
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        1.93e9
+                                      </td>
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        1.903
+                                      </td>
+                                    </tr>
+                                    <tr class="bg-gray-50">
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        4
+                                      </td>
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        1.87
+                                      </td>
+
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        1.93e9
+                                      </td>
+                                      <td scope="col" class="lg:px-4 px-2 py-3">
+                                        1.903
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+                            <!-- Fixed Point Method -->
                           </div>
                           <div x-show="activeTab===2">
                             <div
@@ -1828,7 +2264,7 @@
                                       </ul>
                                     </div>
                                   </footer>
-                                  <p class="text-gray-900">
+                                  <p class="text-gray-900 text-sm">
                                     Very straight-to-point article. Really worth
                                     time reading. Thank you! But tools are just
                                     the instruments for the UX designers. The
@@ -1939,7 +2375,7 @@
                                       </ul>
                                     </div>
                                   </footer>
-                                  <p class="text-gray-900">
+                                  <p class="text-gray-900 text-sm">
                                     Much appreciated! Glad you liked it ☺️
                                   </p>
                                   <div class="flex items-center mt-4 space-x-4">
@@ -2045,7 +2481,7 @@
                                       </ul>
                                     </div>
                                   </footer>
-                                  <p class="text-gray-900">
+                                  <p class="text-gray-900 text-sm">
                                     The article covers the essentials,
                                     challenges, myths and stages the UX designer
                                     should consider while creating the design
@@ -2151,7 +2587,7 @@
                                       </ul>
                                     </div>
                                   </footer>
-                                  <p class="text-gray-900">
+                                  <p class="text-gray-900 text-sm">
                                     Thanks for sharing this. I do came from the
                                     Backend development and explored some of the
                                     tools to design my Side Projects.
@@ -2201,7 +2637,7 @@
             >
               <div class="lg:justify-center px-8 py-3 flex items-center">
                 <div
-                  class="text-lg font-semibold text-gray-900 rounded-lg focus:outline-none focus:shadow-outline"
+                  class="text-md font-semibold text-gray-900 rounded-lg focus:outline-none focus:shadow-outline"
                 >
                   Related Example
                 </div>
@@ -2244,7 +2680,7 @@
       </div>
     </div>
 
-    <footer class="relative bg-[#e2e8f0] pt-8 pb-6">
+    <footer class="relative bg-[#e2e8f0] pt-8 pb-6 font-inter">
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap text-left lg:text-left">
           <div class="w-full lg:w-6/12 px-4">
@@ -2347,7 +2783,7 @@
               <span id="get-current-year">2023</span>
             </div>
             <button
-              class="btn bg-gradient-to-r from-sky-400 to-blue-600 w-10 h-10 float-right bottom-5 right-8 focus:outline-none z-40 fixed rounded-full text-white"
+              class="btn bg-gradient-to-r from-sky-400 to-blue-600 w-10 h-10 float-right bottom-5 right-8 focus:outline-none z-40 fixed rounded-full text-white text-xs"
             >
               top
             </button>
